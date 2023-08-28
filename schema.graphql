@@ -1,0 +1,9 @@
+type Bar {
+  baz: Int32!
+}
+
+type Module {
+    foo(
+      bar: Bar!
+    ): String!
+}

@@ -1,0 +1,9 @@
+format: 0.4.0
+project:
+  name: tsexample
+  type: wasm/js
+source:
+  schema: ./schema.graphql
+  module: ./src/index.ts
+extensions:
+  build: ./polywrap.build.yaml
