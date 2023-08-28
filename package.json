@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "build": "rollup -c"
+    "bundle": "rollup -c",
+    "build": "npx polywrap build"
   },
   "author": "namesty",
   "license": "ISC",
