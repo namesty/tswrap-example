@@ -1,3 +1,4 @@
+import { BigInt, BigNumber, JSONString, Bytes } from "./common";
 import * as Types from "./types";
 
 export class Args_foo {
@@ -5,5 +6,7 @@ export class Args_foo {
 }
 
 export abstract class ModuleBase {
-  abstract foo(args: Args_foo): string;
+  abstract foo(
+    args: Args_foo
+  ): string;
 }

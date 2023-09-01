@@ -7,7 +7,7 @@ import shims from "./shims.js";
 export default {
   input: "src/wrap/entry.ts",
   output: {
-    file: "build/wrap.js",
+    file: "bundled/wrap.js",
     format: "cjs",
   },
   plugins: [

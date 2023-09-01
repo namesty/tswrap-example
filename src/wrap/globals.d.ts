@@ -1,5 +1,7 @@
 declare const __wrap_args: any;
-declare const __wrap_method: "foo";
+type WrapMethod =
+| "foo"
+declare const __wrap_method: WrapMethod;
 declare interface Result<T = any> {
   ok: boolean;
   error: string | undefined;
@@ -10,7 +12,7 @@ declare const __wrap_subinvoke: (
   name: string,
   args: any
 ) => Result;
-declare const __wrap_get_implementations: (
+declare const __wrap_getImplementations: (
   uri: string
 ) => string[];
 declare const __wrap_abort: (args: any) => void;

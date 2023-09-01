@@ -5,11 +5,13 @@
   "main": "index.ts",
   "scripts": {
     "bundle": "rollup -c",
-    "build": "npx polywrap build"
+    "codegen": "npx polywrap codegen --verbose",
+    "build": "yarn bundle && npx polywrap build"
   },
   "author": "namesty",
   "license": "ISC",
   "devDependencies": {
+    "polywrap": "0.11.2",
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-node-resolve": "^15.2.0",
     "@rollup/plugin-terser": "^0.4.3",

@@ -1,8 +1,3 @@
-export {
-  Args_foo,
-  ModuleBase,
-} from "./module";
+export * from "./module";
+export * from "./types";
 
-export {
-  Bar,
-} from "./types";
