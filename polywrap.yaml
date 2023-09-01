@@ -1,9 +1,12 @@
 format: 0.4.0
 project:
   name: tsexample
-  type: wasm/js
+  type: wasm/typescript
 source:
   schema: ./schema.graphql
   module: ./src/index.ts
+  import_abis:
+    - uri: "wrap://authority/imported-subinvoke"
+      abi: "../../../00-invoke/implementations/${implementation}/build/wrap.info"
 extensions:
   build: ./polywrap.build.yaml

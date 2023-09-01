@@ -20,7 +20,7 @@
     "module": "ESNext",
     "target": "ESNext",
     "resolveJsonModule": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
   },
   "include": ["./src/**/*.ts"]
 }

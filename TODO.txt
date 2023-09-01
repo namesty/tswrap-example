@@ -1,0 +1,8 @@
+* showcase subinvocation -> urgent
+* rename js -> javascript
+* rename to typescript because bindings are different
+* put args into their own namespace -> pascalcased
+* check shim dependencies
+* shim globals -> explore
+* explore building schema from code, not the other way around
+* make the CLI (?)/maybe a wrap capable of producing a buildable script file from a TS file
